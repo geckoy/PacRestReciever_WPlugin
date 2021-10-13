@@ -1,0 +1,174 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*************************************************************
+  *                     Account-unpw
+  *************************************************************/
+        #account_unpw div h4,
+        #account_unpw div p,
+        #account_unpw div button
+        {
+            display:inline-block!important;
+        }
+        #account_unpw div input
+        {
+            vertical-align: baseline;
+            /* background: #f0f0f1;
+            border-color: #0a4b78;
+            color: #0a4b78; */
+        }
+       
+ /*************************************************************
+  *                     Account-details
+  *************************************************************/
+        #account-details-wrapper {
+            border: solid black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        #admin_product_details {
+            overflow: scroll;
+            display: block;
+        }
+        #Account-Details-header {
+            float: left;
+        }
+        #player_data_search{
+            float: right;
+            margin-top: 10px;
+        }
+        #player_data_table{
+            clear: both;
+        }
+        #player_data_table th {
+            font-size: 17px;
+        }
+        #player_data_table td {
+            font-size: 15px;
+        }
+        #player_data_table th,
+        #player_data_table td {
+            padding-top:10px;
+            border-bottom: 1px solid black;
+            border-collapse: collapse;
+        }
+
+
+ /*************************************************************
+  *                    Account-Pokemons-wrapper
+  *************************************************************/
+
+    #Account-Pokemons-wrapper {
+        border: solid black;
+        padding: 10px;
+        overflow-x: scroll;
+        margin-bottom: 20px;
+    }
+
+
+
+/*************************************************************
+  *                    Account-Items-wrapper
+  *************************************************************/
+
+    #Account-Items-wrapper{
+        border: solid black;
+        padding: 10px;
+        overflow-x: scroll;
+        margin-bottom: 20px;
+    }
+
+    /* Account Table */
+        #account-items-header {
+            float: left;
+        }
+        #account_items_search{
+            float: right;
+            margin-top: 10px;
+        }
+        #account_items_table{
+            clear: both;
+        }
+        #account_items_table th {
+            font-size: 17px;
+        }
+        #account_items_table td {
+            font-size: 15px;
+        }
+        #account_items_table th,
+        #account_items_table td {
+            padding-top:10px;
+            border-bottom: 1px solid black;
+            border-collapse: collapse;
+        }
+
+/*************************************************************
+  *                    Account-candy-wrapper
+  *************************************************************/
+
+  #Account-candy-wrapper{
+    border: solid black;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+/* Account Table */
+    #account-candy-header {
+        float: left;
+    }
+    #account_candy_search{
+        float: right;
+        margin-top: 10px;
+    }
+    #account_candy_table{
+        clear: both;
+    }
+    #account_candy_table th {
+        font-size: 17px;
+    }
+    #account_candy_table td {
+        font-size: 15px;
+    }
+    #account_candy_table th,
+    #account_candy_table td {
+        padding-top:10px;
+        border-bottom: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+ /*************************************************************
+  *                    Account-mega_energy-wrapper
+  *************************************************************/
+
+  #Account-mega_energy-wrapper{
+    border: solid black;
+    padding: 10px;
+    overflow-x: scroll;
+  }
+
+  /* Account Table */
+    #account-mega_energy-header {
+        float: left;
+    }
+    #account_mega_energy_search{
+        float: right;
+        margin-top: 10px;
+    }
+    #account_mega_energy_table{
+        clear: both;
+    }
+    #account_mega_energy_table th {
+        font-size: 17px;
+    }
+    #account_mega_energy_table td {
+        font-size: 15px;
+    }
+    #account_mega_energy_table th,
+    #account_mega_energy_table td {
+        padding-top:10px;
+        border-bottom: 1px solid black;
+        border-collapse: collapse;
+    }
+    

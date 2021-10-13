@@ -1,0 +1,26 @@
+// add error/update messages
+ 
+    // check if the user have submitted the settings
+    // WordPress will add the "settings-updated" $_GET parameter to the url
+    if ( isset( $_GET['settings-updated'] ) ) {
+        // add settings saved message with the class of "updated"
+        add_settings_error( 'Paa_messages_download_accounts', 'Paa_message_download_accounts', __( 'Settings Saved', 'Paa' ), 'updated' );
+    }
+ 
+    // show error/update messages
+    settings_errors( 'Paa_messages_download_accounts' );
+    ?>
+    <div class="wrap">
+        <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
+        <form action="options.php" method="post">
+            <?php
+            // output security fields for the registered setting "Paa_download_accounts"
+            settings_fields( 'Paa_download_accounts' );
+            // output setting sections and their fields
+            // (sections are registered for "Paa", each field is registered to a specific section)
+            do_settings_sections( 'Paa_download_accounts' );
+            // output save settings button
+            submit_button( 'Save Settings' );
+            ?>
+        </form>
+    </div>
